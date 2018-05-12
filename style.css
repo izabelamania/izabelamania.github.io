@@ -16,13 +16,12 @@
 
 }
 
-.logo {
+h3 {
 
-  width: 30px;
-  height: 30px;
-
+  font-size: 40px;
+  font-style: bold;
+  text-align: center;
 }
-
 
 
 .column-right {
