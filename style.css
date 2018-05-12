@@ -1,0 +1,60 @@
+.box {
+  display: flex;
+  flex-wrap: wrap; /*łam*/
+  background-color: #c1be95;
+  font-family:  Garamond;
+
+
+}
+.header {
+  flex-basis: 100%; /* szerokość na cala strone */
+  min-height: 150px;
+  background-color: #4c4c42;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+.logo {
+
+  width: 30px;
+  height: 30px;
+
+}
+
+
+
+.column-right {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 25px;
+  color: #44443c;
+  flex-basis: 30%;
+  min-height: 150px;
+  line-height: 50px;
+
+}
+
+.content {
+  flex-basis: 70%;
+  background-image: url(galeria/indonezja.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.footer {
+  flex-basis: 100%;
+  background-color: #4c4c42;
+  min-height: 50px;
+}
+
+.kontakt {
+
+  font-size: 25px;
+  color: #e2e2ba;
+  font-style: bold;
+  text-align: center;
+
+}
