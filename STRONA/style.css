@@ -1,0 +1,157 @@
+.box {
+  display: flex;
+  background-color: #edf3ff;
+  font-family:  Garamond;
+  width: 1250px;
+  margin: auto;
+}
+
+ 
+
+
+.logo {
+  margin: 5px auto 5px 20px;
+  position: left;
+  flex-basis: 20%;
+
+}
+
+#mapka {
+
+  width: 100px;
+  height: 100px;
+  
+}
+
+
+.menu {
+
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+  
+
+}
+
+.menuLink {
+
+  cursor: pointer;
+  padding: 20px 10px; /*góra prawo dół lewo (parami)*/ 
+  font-weight: bold;
+  font-size: 20px;
+  color: #14171e;
+  margin-right: 20px;
+}
+
+.banner {
+
+
+  background-image: url('galeria/bali-indonesia-banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-bottom: 0;
+
+}
+
+ .title {
+
+  font-size: 70px;
+  font-weight: bold;
+  text-align: left;
+  color: #14171e;
+  padding-left: 50px;
+  padding-top: 30px;
+  font-style: italic;
+
+}
+
+.info {
+  background-color: #14171e;
+  color: #edf3ff;
+  padding-left: 50px;
+  padding-top: 5px;
+  text-align: justify;
+  display: flex;
+  margin-top: 5px;
+}
+
+h3 {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p { 
+
+  font-size: 20px;
+  line-height: 40px;
+
+
+}
+
+.column-right {
+  background: #14171e;
+  height: 150px;
+  width: 60%
+}
+
+.content {
+  flex-basis: 50%;
+  align-items: left;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  width: 40%
+}
+
+
+#blue {
+
+
+  height: 470px;
+  width: 80%;
+  padding-top: 140px;
+  position: relative;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  margin-left: 40px;
+}
+
+
+.wyspy {
+  background-color: #72acc1;
+  color: #edf3ff;
+  padding-left: 50px;
+  padding-top: 5px;
+  text-align: justify;
+  display: flex;
+  margin-top: 5px;
+  padding-right: 40px;
+}
+.column-left {
+  background: #72acc1;
+  height: 150px;
+  width: 60%
+
+}
+
+.bali {
+  flex-basis: 50%;
+  align-items: left;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  width: 40%
+}
+
+.jezioro {
+
+
+  height: 400px;
+  width: 80%;
+  padding-top: 120px;
+  position: relative;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  margin-left: 20px;
+}
+

@@ -1,60 +1,48 @@
-.box {
-  display: flex;
-  flex-wrap: wrap; /*łam*/
-  background-color: #c1be95;
-  font-family:  Garamond;
+body {
 
 
-}
-.header {
-  flex-basis: 100%; /* szerokość na cala strone */
-  min-height: 150px;
-  background-color: #4c4c42;
-  background-repeat: no-repeat;
-  margin-top: 100px;
-  text-align: center;
+	background-color: #93a5c1;
 
 }
 
-h3 {
+p {
 
-  font-size: 40px;
-  font-style: bold;
-  text-align: center;
-  color: #e2e2ba;
+	font-size: 50px;
+	color: #3c4451;
+
+	
 }
 
 
-.column-right {
-  margin-top: 80px;
-  margin-bottom: 80px;
-  font-size: 25px;
-  color: #44443c;
-  flex-basis: 30%;
-  min-height: 150px;
-  line-height: 50px;
+ol {
 
+	font-size: 35px;
+	color: #3c4451; 
 }
 
-.content {
-  flex-basis: 70%;
-  background-image: url(galeria/indonezja.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  
+.figura {
+
+	background-color: #474d56;
+	width: 400px;
+	height: 400px;
 }
 
-.footer {
-  flex-basis: 100%;
-  background-color: #4c4c42;
-  min-height: 50px;
+.okrag {
+
+	background-color: #474d56;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
 }
 
-.kontakt {
+.gwiazdka {
 
-  font-size: 25px;
-  color: #e2e2ba;
-  font-style: bold;
-  text-align: center;
+	background-color: #474d56;
+	border-right: 50px solid transparent;
+	border-left: 50px;
+	height: 400px;
+	width: 4000px;
+
+
 
 }
